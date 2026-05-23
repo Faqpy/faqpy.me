@@ -2,7 +2,7 @@
     font-family: CalSans;
     src:url(/Font/CalSans-Regular.ttf);
 }
-* {background-color: black; -webkit-tap-highlight-color: transparent;}
+body {background-color: black; background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/main-icon.png); background-size: cover; background-position: center; background-repeat: no-repeat; -webkit-tap-highlight-color: transparent;}
 :root{
     --ws-d1: hsl(0, 0%, 86%);
     --ws-d2: hsl(0, 0%, 66%);
