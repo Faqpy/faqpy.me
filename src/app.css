@@ -3,8 +3,8 @@
     src:url(/Font/CalSans-Regular.ttf);
 }
 :root{
-    --ws-d1: hsl(331, 89%, 58%);
-    --ws-d2: hsl(331, 89%, 78%);
+    --ws-d1: hsl(343, 90%, 81%);
+    --ws-d2: hsl(339, 94%, 93%);
 }
 body {
     font-family: CalSans;
@@ -39,12 +39,12 @@ main {
 }
 .titleSpan{
     text-decoration: none;
-    color: hsl(331, 89%, 38%);
+    color: hsl(331, 89%, 68%);
     transition: color 0.25s;
 }
 .titleSpan:hover{color: var(--ws-d1);}
 .titleSpan:active{color: var(--ws-d2);}
-a:visited{color: hsl(331, 89%, 38%);}
+a:visited{color: hsl(331, 89%, 68%);}
 .socialBtns{
     font-family: CalSans;
     background-color: hsl(32, 84%, 88%);
