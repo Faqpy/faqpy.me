@@ -55,17 +55,23 @@ a:visited{color: var(--ws-d4);}
     color: var(--ws-d3);
     border: none;
     cursor: pointer;
-    border-radius: 999px;
-    padding: 2px 10px 2px 10px;
+    padding: 8px 16px;
     margin: 5px;
     font-size: 1.1em;
     transition: background-color 0.25s;
 }
 .socialBtns:hover{
     background-color: var(--ws-d1);
+    border-radius: 10px;
+    transition: border-radius 0.25s, background-color 0.25s, color 0.25s ease;
+}
+.socialBtns:not(:hover){
+    border-radius: 14px;
+    transition: border-radius 0.25s, background-color 0.25s, color 0.25s ease;
 }
 .socialBtns:active{
-    background-color: var(--ws-d2);
+    background-color: var(--ws-d3);
+    color: var(--ws-d2);
 }
 footer {
     cursor: default;
