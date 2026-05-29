@@ -40,16 +40,16 @@ main {
     background-repeat: no-repeat, no-repeat;
   }
 }
-.titleSpan{
+.title-span{
     text-decoration: none;
     color: var(--ws-d4);
     transition: color 0.25s;
 }
-.titleSpan:hover{color: var(--ws-d1);}
-.titleSpan:active{color: var(--ws-d2);}
+.title-span:hover{color: var(--ws-d1);}
+.title-span:active{color: var(--ws-d2);}
 a{color: var(--ws-d2);}
 a:visited{color: var(--ws-d4);}
-.socialBtns{
+.social-btns{
     font-family: CalSans;
     background-color: var(--ws-d5);
     color: var(--ws-d3);
@@ -60,16 +60,16 @@ a:visited{color: var(--ws-d4);}
     font-size: 1.1em;
     transition: background-color 0.25s;
 }
-.socialBtns:hover{
+.social-btns:hover{
     background-color: var(--ws-d1);
     border-radius: 10px;
     transition: border-radius 0.25s, background-color 0.25s, color 0.25s ease;
 }
-.socialBtns:not(:hover){
+.social-btns:not(:hover){
     border-radius: 14px;
     transition: border-radius 0.25s, background-color 0.25s, color 0.25s ease;
 }
-.socialBtns:active{
+.social-btns:active{
     background-color: var(--ws-d3);
     color: var(--ws-d2);
 }

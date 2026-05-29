@@ -1,5 +1,5 @@
 <main>
-    <p style="font-size: 80px; font-style: normal;"><span><a class="titleSpan" href="/">witchie</a></span> です!</p>
+    <p style="font-size: 80px; font-style: normal;"><span><a class="title-span" href={resolve("/")}>witchie</a></span> です!</p>
     <div class="about-container">
         <a href="https://discord.com/users/600698629501616138" target="_blank"><img class="imgClass" id="dc-avatar" rel="preload" src="https://api.lanyard.rest/600698629501616138.png" alt="witchie on discord"></a>
         <p id="p-about">Heya, witchie here! I'm uhh a really mischievous person I would say. <br>
@@ -11,3 +11,6 @@
 <footer>
     <p>i cnat cod &nbsp;•&nbsp; witchie</p>
 </footer>
+<script>
+    import { resolve } from "$app/paths";
+</script>
