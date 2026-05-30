@@ -1,12 +1,13 @@
 <main>
     <h1><span><a class="title-span" href={resolve("/")}>witchie</a></span> です!</h1>
     
-    <div class="game-profile-button-container">
+    <h3>Game Profiles</h3>
+    <div class="profile-button-container">
         <ul class="buttons">
             <li>
                 <a href="https://github.com/faqpy/faqpy.me" target="_blank" rel="noopener noreferrer">
                     <button id="src_btn" title="Source code of this page">
-                        <Icon icon="mdi:github" class="btn-icon" />
+                        <Icon icon="simple-icons:github" class="btn-icon" />
                         <h3 translate="yes">source code</h3>
                     </button>
                 </a>
@@ -15,7 +16,7 @@
                 <a href="https://steamcommunity.com/id/schizofuck/" target="_blank" rel="noopener noreferrer">
                     <button title="my Steam profile">
                         <Icon icon="simple-icons:steam" class="btn-icon" />
-                        <h3 translate="no">Steam Profile</h3>
+                        <h3 translate="no">steam profile</h3>
                     </button>
                 </a>
             </li>            
@@ -23,7 +24,7 @@
                 <a href="https://gdbrowser.com/u/faqpy" target="_blank" rel="noopener noreferrer">
                     <button title="my GD profile">
                         <Icon icon="arcticons:geometry-dash" class="btn-icon" />
-                        <h3 translate="no">GD</h3>
+                        <h3 translate="no">gd</h3>
                     </button>
                 </a>
             </li>
@@ -31,7 +32,7 @@
                 <a href="https://namemc.com/faqpy" target="_blank" rel="noopener noreferrer">
                     <button title="my NameMC profile">
                         <Icon icon="simple-icons:namemc" class="btn-icon" />
-                        <h3 translate="no">NameMC</h3>
+                        <h3 translate="no">namemc</h3>
                     </button>
                 </a>
             </li>
@@ -48,6 +49,51 @@
                     <button title="my Roblox profile">
                         <Icon icon="simple-icons:roblox" class="btn-icon" />
                         <h3 translate="no">roblox</h3>
+                    </button>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <h3>Social Profiles</h3>
+    <div class="profile-button-container">
+        <ul class="buttons">
+            <li>
+                <a href="https://github.com/faqpy/" target="_blank" rel="noopener noreferrer">
+                    <button id="src_btn" title="Github profile">
+                        <Icon icon="simple-icons:github" class="btn-icon" />
+                        <h3 translate="yes">github</h3>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/faqpy/" target="_blank" rel="noopener noreferrer">
+                    <button title="Twitter profile">
+                        <Icon icon="simple-icons:twitter" class="btn-icon" />
+                        <h3 translate="no">twitter</h3>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/faqpy/" target="_blank" rel="noopener noreferrer">
+                    <button title="Instagram profile">
+                        <Icon icon="simple-icons:instagram" class="btn-icon" />
+                        <h3 translate="no">instagram</h3>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.bluesky.com/faqpy.me/" target="_blank" rel="noopener noreferrer">
+                    <button title="Bluesky profile">
+                        <Icon icon="simple-icons:bluesky" class="btn-icon" />
+                        <h3 translate="no">bluesky</h3>
+                    </button>
+                </a>
+            </li>
+            <li>
+                <a href="https://discord.gg/VQBfmCxeqZ" target="_blank" rel="noopener noreferrer">
+                    <button title="Discord server">
+                        <Icon icon="simple-icons:discord" class="btn-icon" />
+                        <h3 translate="no">discord server</h3>
                     </button>
                 </a>
             </li>
