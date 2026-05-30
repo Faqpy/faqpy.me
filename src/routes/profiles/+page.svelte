@@ -66,7 +66,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.twitter.com/faqpy/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.x.com/faqpy/" target="_blank" rel="noopener noreferrer">
                     <button title="Twitter profile">
                         <Icon icon="simple-icons:twitter" class="btn-icon" />
                         <h3 translate="no">twitter</h3>
@@ -82,7 +82,7 @@
                 </a>
             </li>
             <li>
-                <a href="https://www.bluesky.com/faqpy.me/" target="_blank" rel="noopener noreferrer">
+                <a href="https://bsky.app/profile/faqpy.me" target="_blank" rel="noopener noreferrer">
                     <button title="Bluesky profile">
                         <Icon icon="simple-icons:bluesky" class="btn-icon" />
                         <h3 translate="no">bluesky</h3>
@@ -90,10 +90,10 @@
                 </a>
             </li>
             <li>
-                <a href="https://discord.gg/VQBfmCxeqZ" target="_blank" rel="noopener noreferrer">
-                    <button title="Discord server">
+                <a href="https://discord.com/users/600698629501616138" target="_blank" rel="noopener noreferrer">
+                    <button title="@witchie">
                         <Icon icon="simple-icons:discord" class="btn-icon" />
-                        <h3 translate="no">discord server</h3>
+                        <h3 translate="no">discord</h3>
                     </button>
                 </a>
             </li>

@@ -5,7 +5,7 @@
     <p>I'm a self-taught web developer (currently learning)</p>
     <a href="https://bsky.app/profile/faqpy.me" target="_blank" rel="noopener noreferrer"><button class="social-btns">BSky</button></a>
     <a href="mailto:faqpy@proton.me" target="_blank" rel="noopener noreferrer"><button class="social-btns">Mail</button></a>
-    <a href="https://discord.com/users/277867160796397568" target="_blank" rel="noopener noreferrer"><button class="social-btns">Discord</button></a>
+    <a href="{resolve("/profiles")}"><button class="social-btns">Profiles</button></a>
     <a href={resolve("/contact")}><button class="social-btns">Contact</button></a>
 </main>
 <footer>
