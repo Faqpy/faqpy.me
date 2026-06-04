@@ -1,6 +1,3 @@
-# Faqpy
-<img src="/archived/main-icon.webp" href="https://faqpy.me" alt="main icon" width="500">
-
 # sv
 
 Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
