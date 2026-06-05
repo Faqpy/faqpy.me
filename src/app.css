@@ -86,10 +86,6 @@ a:visited{color: var(--ws-d4);}
     flex-direction: row;
     gap: 20px;
 }
-/* .contact-form-container {
-    border: 2px green solid;
-    padding: 20px;
-} */
 #dc-avatar{
     margin: 20px auto;
     border-radius: 50px;
@@ -118,40 +114,7 @@ a:visited{color: var(--ws-d4);}
         align-items: center;
     }
     body{    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/assets/main-background-phone.webp); 
-}
-    
-}
-.contact-form-input, .contact-form-textarea{
-    background-color: var(--ws-d2);
-    border-radius: 10px;
-    border: 1px solid var(--ws-d3);
-    color: var(--ws-d3);
-    padding: 10px;  
-    font-family: inherit;
-    transition: all 0.25s ease;
-    resize: none;
-}
-#contact-form-btn{
-    align-self: flex-end;
-    background-color: var(--ws-d1);
-    color: var(--ws-d2);
-    font-weight: bold;
-    border: solid var(--ws-d3) 2px;
-    padding: 10px 16px;
-    border-radius: 14px;
-    cursor: pointer;
-}
-#contact-form-btn:hover{
-    background-color: var(--ws-d2);
-    color: var(--ws-d3);
-    border-radius: 10px;
-    transition: border-radius 0.25s, background-color 0.25s, color 0.25s ease;
-}
-#contact-form-btn:not(:hover){
-    background-color: var(--ws-d1);
-    color: var(--ws-d2);
-    border-radius: 14px;
-    transition: border-radius 0.25s, background-color 0.25s, color 0.25s ease;
+    }
 }
 .game-profile-button-container {
     display: flex;
