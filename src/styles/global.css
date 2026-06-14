@@ -39,6 +39,16 @@
     --layout-gap: 24px;
 }
 
+* {
+    -webkit-tap-highlight-color: transparent !important;
+}
+
+::selection {
+    background: var(--md-sys-color-primary);
+    color: var(--md-sys-color-on-primary);
+    border-radius: 99px;
+}
+
 body {
     margin: 0;
     padding: 0;

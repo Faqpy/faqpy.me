@@ -5,13 +5,13 @@ type Props = {
   title?: string;
   description?: string;
   type?: string;
-  image?: string; 
+  image?: string;
 };
 const {
   title = 'faqpy',
   description = '(a.k.a witchie)',
   type = 'website',
-  image = 'https://api.lanyard.rest/600698629501616138.webp', 
+  image = 'https://api.lanyard.rest/600698629501616138.webp',
 } = Astro.props satisfies Props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site || Astro.url);
