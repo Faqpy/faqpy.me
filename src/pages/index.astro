@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import Header from '../components/Header.astro';
+import CustomEmoji from '../components/CustomEmoji.astro';
 import { Icon } from 'astro-icon/components';
 ---
 
@@ -32,7 +33,7 @@ import { Icon } from 'astro-icon/components';
               <h1 class="profile-title"><span class="highlight-primary">faqpy</span> です!</h1>
               <p class="text-muted text-small align-up">(a.k.a witchie)</p>
               <ul class="profile-description">
-                <li>heya, i'm faqpy</li>
+                <li>heya, i'm faqpy <CustomEmoji src="/emojis/miauWhat.webp" name="miau" /></li>
                 <li>a self-taught web developer (currently learning)</li>
               </ul>
               <div class="skills-container">
@@ -176,7 +177,7 @@ import { Icon } from 'astro-icon/components';
               <Icon name="material-symbols:newspaper" class="card-icon-foreground" />
             </div>
             <h2 class="card-heading">newspaper</h2>
-            <p class="text-muted text-small align-up">Monday, August 6, 2026</p>
+            <p class="text-muted text-small align-up">Monday, June 6th, 2026</p>
             <div class="card-article">
               <p>
                 word on the street that caot was found dead mid 2026, with the cause of death unknown. some speculate

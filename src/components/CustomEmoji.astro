@@ -1,0 +1,27 @@
+---
+interface Props {
+    src?: string;
+    name?: string;
+}
+
+const { src = "", name = "emoji" } = Astro.props;
+---
+
+<a href={src} target="_blank" rel="noopener noreferrer" title={name} class="emoji-link">
+    <img src={src} alt={name} class="emoji-img" />
+</a>
+
+<style>
+    .emoji-link {
+        display: inline-block;
+        text-decoration: none;
+        cursor: text;
+    }
+
+    .emoji-img {
+        height: 1.2em;
+        vertical-align: middle;
+        margin: 0 2px;
+        width: auto ;
+    }
+</style>
