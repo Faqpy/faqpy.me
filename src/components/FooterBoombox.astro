@@ -1,13 +1,24 @@
----
-
----
-
 <audio id="boombox-audio" src="/assets/irse.mp3" autoplay loop></audio>
 
 <script>
     const boombox = document.querySelector<HTMLAudioElement>("#boombox-audio");
+    const musicToggle = document.querySelector<HTMLButtonElement>("#music-toggle");
+    const playIcon = document.querySelector<HTMLElement>("#icon-play");
+    const pauseIcon = document.querySelector<HTMLElement>("#icon-pause");
 
-    if (boombox) {
+    if (boombox && musicToggle && playIcon && pauseIcon) {
         boombox.volume=0.4;
+
+        musicToggle.addEventListener("click", () => {
+            if (boombox.paused) {
+                boombox.play();
+                playIcon.classList.remove("icon-hidden");
+                pauseIcon.classList.add("icon-hidden");
+            } else {
+                boombox.pause();
+                playIcon.classList.add("icon-hidden");
+                pauseIcon.classList.remove("icon-hidden");
+            }
+        });
     }
 </script>
