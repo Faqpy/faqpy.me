@@ -421,7 +421,7 @@ body {
 
 @media (max-width: 1024px) {
     .faq-banner {
-        height: calc(100vh - 9em - 40px);
+        height: calc(100svh - 9em - 40px);
         max-height: 900px;
     }
 }
