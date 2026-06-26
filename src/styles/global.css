@@ -166,10 +166,6 @@ body {
     border-color: var(--md-sys-color-secondary);
 }
 
-.card-large {
-    min-height: 280px;
-}
-
 .card-icon-wrapper {
     width: 44px;
     height: 44px;
