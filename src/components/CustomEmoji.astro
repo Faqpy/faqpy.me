@@ -7,8 +7,8 @@ interface Props {
 const { src = "", name = "emoji" } = Astro.props;
 ---
 
-<a href={src} target="_blank" rel="noopener noreferrer" title={name} class="emoji-link">
-    <img src={src} alt={name} class="emoji-img" />
+<a href={src} target="_blank" rel="noopener noreferrer" title={name} class="emoji-link" draggable="false">
+    <img src={src} alt={name} class="emoji-img" draggable="false" />
 </a>
 <style>
     .emoji-link {
