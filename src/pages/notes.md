@@ -21,3 +21,9 @@ through heaven and hell, my refactoring spirit alone is the honored one
 - just kidding but there are some
 
 ![fw](/favicon.png)
+
+## ???
+
+something had me. i couldnt overlook it, i had to do it. i.. i had no choice, what else was i supposed to do.
+
+what i did was wrong i get it. what i did was unacceptable i get it. no matter how hard i tried, i just couldnt save him, how could i..
