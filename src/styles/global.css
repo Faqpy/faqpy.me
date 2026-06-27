@@ -384,7 +384,6 @@ body {
     color: var(--md-sys-color-primary);
 }
 
-
 .card-article p {
     margin: 0 0 12px 0;
     color: var(--md-sys-color-on-surface-variant);
@@ -462,6 +461,17 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     overflow: hidden;
+}
+
+.news-marquee {
+    color: var(--md-sys-color-surface-container-low);
+    background: var(--md-sys-color-on-surface-variant);
+    font-size: 0.85rem;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
 }
 
 @media (max-width: 1024px) {
