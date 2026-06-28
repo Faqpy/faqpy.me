@@ -1,0 +1,35 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+---
+
+<html lang="en">
+
+<head>
+    <Header />
+</head>
+
+<body>
+    <main class="layout-main">
+        <section class="content-section">
+            <div class="content-column">
+                <video src="/assets/videos/whatamidoing.mp4" autoplay loop></video>
+            </div>
+        </section>
+    </main>
+    <style>
+        .content-column {
+            width: 90vw;
+            height: 85vh;
+            margin: 4vh auto;
+            border-radius: 24px;
+            overflow: hidden;
+        }
+        .content-column video {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</body>
+
+</html>
