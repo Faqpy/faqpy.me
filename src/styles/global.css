@@ -294,6 +294,7 @@ body {
     width: 88px;
     height: 31px;
     transition: transform 0.2s ease;
+    image-rendering: auto crisp-edges pixelated -webkit-optimize-contrast;
 }
 
 .eexto:hover {
