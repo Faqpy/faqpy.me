@@ -96,8 +96,8 @@ body {
     background-image: url('/assets/images/hoshikawa-sara.webp');
     background-size: cover;
     background-position: center;
-    -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 95%);
-    mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 95%);
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 95%);
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0) 95%);
     z-index: 1;
     opacity: 0.8;
 }
@@ -140,6 +140,7 @@ body {
     scroll-margin-top: 1.5rem;
 }
 
+#about,
 #socials {
     position: relative;
 }
@@ -213,6 +214,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    z-index: 2;
 }
 
 .profile-title {
@@ -369,14 +371,16 @@ body {
     border-color: var(--md-sys-color-outline);
 }
 
-.fab-inline, .btn-primary-blur {
+.fab-inline,
+.btn-primary-blur {
     background: transparent;
     border: 1px solid color-mix(in srgb, var(--md-sys-color-outline) 35%, transparent);
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
 }
 
-.fab-inline:hover, .btn-primary-blur:hover {
+.fab-inline:hover,
+.btn-primary-blur:hover {
     background: color-mix(in srgb, var(--md-sys-color-surface-container-low) 50%, transparent);
     border-color: color-mix(in srgb, var(--md-sys-color-outline) 58%, transparent);
     backdrop-filter: blur(10px);
@@ -462,7 +466,7 @@ body {
     object-fit: contain;
 }
 
-.card-image.wobble {
+.card-image.free-image {
     position: absolute;
     top: 24px;
     right: 24px;
@@ -524,5 +528,19 @@ body {
 
     .card-heading {
         font-size: 1.25rem;
+    }
+}
+
+@media (min-width: 901px) {
+    #about {
+        padding-right: 180px;
+        min-height: 240px;
+        justify-content: center;
+    }
+
+    .card-image.free-image.about-photo {
+        top: 50%;
+        transform: translateY(-50%) rotate(8deg);
+        width: 200px;
     }
 }
