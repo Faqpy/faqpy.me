@@ -44,6 +44,7 @@ import { Icon } from 'astro-icon/components';
                             <div class="profile-details about-card">
                                 <h1 class="profile-title"><span>faqpy</span> です!</h1>
                                 <p class="card-subtitle">(a.k.a witchie)</p>
+                                <img src="/assets/gifs/lancer-break.webp" alt="lancer-break" class="card-image free-image">
                                 <ul class="profile-description">
                                     <li>heya, i'm faqpy
                                         <CustomEmoji src="/assets/emojis/miauWhat.webp" name="miau" />
@@ -54,8 +55,12 @@ import { Icon } from 'astro-icon/components';
                                 <img src="/assets/images/ralsei-plush-nurse.webp" alt="ralsei heart" class="card-image"
                                     style="width: 80px; transform: rotate(180deg);" draggable="false" />
                             </div>
-                            <img src="/assets/gifs/lancer-break.webp" alt="lancer"
-                                class="card-image free-image about-photo" draggable="false" />
+                            <div class="statuscafe" style="margin-top: 0;">
+                                <div id="statuscafe-username"></div>
+                                <div id="statuscafe-content"></div>
+                            </div>
+                            <script src="https://status.cafe/current-status.js?name=faqpy" defer></script>
+
                         </section>
 
                         <section class="card" id="socials">
@@ -112,7 +117,7 @@ import { Icon } from 'astro-icon/components';
                             </div>
                             <h2 class="card-heading">friends</h2>
                             <p class="card-subtitle">some cool people :3</p>
-                            <div class="card-article">
+                            <div class="card-article eexto-grid">
                                 <a href="https://twixxt.vercel.app/" title="@twixxty on github" target="_blank"
                                     rel="noreferrer noopener">
                                     <img src="/assets/buttons/ralsei-smoking.gif" alt="twixxty" draggable="false"
@@ -251,6 +256,11 @@ import { Icon } from 'astro-icon/components';
                             <button id="music-toggle" class="footer-link btn-link" aria-label="toggle music" title="Toby Fox - It's Raining Somewhere Else (UNDERTALE)">
                                 music <Icon name="material-symbols:music-note" id="icon-play" style="font-size: 1em; vertical-align: middle;" /><Icon name="material-symbols:music-off" id="icon-pause" class="is-hidden" style="font-size: 1em; vertical-align: middle;" />
                             </button>
+                        </div>
+                        <div class="footer-eexto eexto-grid">
+                            <a href="https://status.cafe/" title="status.cafe" target="_blank" rel="noreferrer noopener">
+                                <img src="/assets/buttons/statuscafe.png" alt="status.cafe" draggable="false" class="eexto" />
+                            </a>
                         </div>
                         <div class="footer-copyright">
                             &copy; 2026 faqpy. made with vsc.
